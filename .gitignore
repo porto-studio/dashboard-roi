@@ -1,0 +1,69 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Sensitive data (NEVER commit these)
+config.json
+*.json
+.credentials/
+secrets/
+
+# Assets with real data
+assets/whatsapp-raw-*.png
+assets/whatsapp-raw-*.jpg
+screenshots/
+
+# Backup files
+backups/
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Git
+.git/
+
+# Dependencies
+node_modules/
