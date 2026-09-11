@@ -1,6 +1,6 @@
 # Dashboard ROI Meta Ads + Hotmart
 
-**Demo Online:** [https://adrielportoribeiro.github.io/dashboard-roi/](https://adrielportoribeiro.github.io/dashboard-roi/)
+**Demo Online:** [https://porto-studio.github.io/dashboard-roi/](https://porto-studio.github.io/dashboard-roi/)
 
 Dashboard de Business Intelligence que conecta dados de mídia paga (Meta Ads) com vendas (Hotmart) para calcular ROI, ROAS e CPA em tempo real, com sistema de alertas automatizado.
 
@@ -61,7 +61,7 @@ Meta Ads                Hotmart
 
 **Acesse a demonstração com dados fictícios:**
 
-🔗 **[https://adrielportoribeiro.github.io/dashboard-roi/](https://adrielportoribeiro.github.io/dashboard-roi/)**
+🔗 ** https://porto-studio.github.io/dashboard-roi/(https://porto-studio.github.io/dashboard-roi/)**
 
 > ⚠️ **VERSÃO DEMONSTRATIVA — DADOS FICTÍCIOS**
 > 
