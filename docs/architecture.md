@@ -15,8 +15,8 @@ Sistema de Business Intelligence que conecta Meta Ads e Hotmart para calcular RO
 ┌─────────────────────────────────────────────────────────────┐
 │              Dashboard HTML (Single File)                    │
 │  ┌───────────────┐  ┌──────────────┐  ┌────────────────┐  │
-│  │ Token Meta    │  │ Conta(hotmart_proxy.py)│              │                                            │
-│  │ (manual)      │  │ Período     │  │                │  │
+│  │ Token Meta    │  │ Conta        │  │ Período        │  │
+│  │ (manual)      │  │ (seleção)    │  │ (filtro)       │  │
 │  └───────────────┘  └──────────────┘  └────────────────┘  │
 │                                                              │
 │  ┌──────────────────────────────────────────────────────┐  │

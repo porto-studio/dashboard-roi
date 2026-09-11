@@ -127,49 +127,24 @@ Meta Ads                Hotmart
 
 ---
 
-## 🛠️ Como Rodar Localmente
+## 🛠️ Como Rodar a Demo Localmente
 
-### Pré-requisitos
-- Python 3.10+
-- Navegador moderno (Chrome, Firefox, Safari)
-- Token Meta Ads (longa duração)
-- Credenciais Hotmart API
-
-### Passos
+Este repositório público contém a **versão demonstrativa** — um único arquivo HTML com dados fictícios embutidos, sem backend.
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/adrielportoribeiro/dashboard-roi.git
+   git clone https://github.com/porto-studio/dashboard-roi.git
    cd dashboard-roi
    ```
 
-2. **Configure variáveis de ambiente:**
+2. **Abra o arquivo:**
    ```bash
-   cp .env.example .env
-   # Edite .env com seus tokens
+   open index.html
    ```
 
-3. **Instale dependências:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+Pronto — zero instalação, zero dependências.
 
-4. **Inicie o proxy:**
-   ```bash
-   python3 hotmart_proxy.py
-   ```
-
-5. **Abra o dashboard:**
-   ```bash
-   open roi-dashboard-metaapi.html
-   # Ou acesse: http://localhost:8789
-   ```
-
-6. **Configure:**
-   - Cole seu token Meta no campo "Token Meta"
-   - Selecione a conta de anúncios
-   - Escolha o período
-   - Clique "Sincronizar"
+> ℹ️ **Sobre a versão completa:** a versão de produção conecta as APIs reais do Meta Ads e Hotmart via proxy Python local (renovação automática de token, alertas via WhatsApp — ver seção "Destaques Técnicos" acima). Os scripts de backend e credenciais rodam no ambiente privado do autor e não fazem parte deste repositório público, por segurança (ver seção "Segurança" abaixo). `.env.example` está aqui só como referência do formato de configuração usado nessa versão completa.
 
 ---
 
@@ -177,20 +152,17 @@ Meta Ads                Hotmart
 
 ```
 dashboard-roi/
-├── dashboard-demo-30dias.html    # Demo com dados fictícios (GitHub Pages)
-├── roi-dashboard-metaapi.html      # Dashboard completo (requer backend)
-├── hotmart_proxy.py                # Proxy Flask para Hotmart API
-├── buscar-meta-ads.py              # Script standalone Meta Ads
-├── requirements.txt                # Dependências Python
-├── .env.example                    # Template de variáveis
-├── .gitignore                      # Arquivos ignorados
-├── README.md                       # Esta documentação
-├── docs/                           # Documentação técnica
+├── index.html                      # Demo com dados fictícios (GitHub Pages)
+├── .env.example                     # Template de variáveis (referência da versão completa)
+├── .gitignore                       # Arquivos ignorados
+├── PUBLICATION_CHECKLIST.md         # Checklist de publicação
+├── README.md                        # Esta documentação
+├── docs/                            # Documentação técnica
 │   ├── architecture.md
 │   ├── case-study.md
 │   ├── metrics.md
 │   └── security.md
-└── assets/                         # Screenshots
+└── assets/                          # Screenshots
     ├── dashboard-meta-hotmart-main.png
     ├── dashboard-hotmart-roi-top15.png
     ├── whatsapp-anon-01-alertas.png
@@ -234,7 +206,7 @@ Mais detalhes: [docs/security.md](docs/security.md)
 
 1. **Atribuição Indireta:** Hotmart não informa qual campanha gerou cada venda. O cruzamento é por período (total Meta vs total Hotmart), não por campanha individual.
 
-2. **Dependência Local:** Versão completa requer proxy Python rodando localmente.
+2. **Dependência Local:** Versão completa (APIs reais) requer proxy Python rodando localmente — não incluído neste repositório público.
 
 3. **Cálculo Simplificado:** "Resultado operacional" ≠ lucro líquido. Não inclui todas as variáveis de custo.
 

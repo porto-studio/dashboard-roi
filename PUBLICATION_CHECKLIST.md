@@ -2,7 +2,7 @@
 
 ## Status
 
-✅ **PRONTO PARA PUBLICAÇÃO**
+✅ **PUBLICADO** — repositório no ar em https://github.com/porto-studio/dashboard-roi, demo em https://porto-studio.github.io/dashboard-roi/
 
 ## Verificações
 
@@ -25,7 +25,7 @@
 - [x] docs/security.md
 
 ### ✅ Demo
-- [x] dashboard-demo-30dias.html presente
+- [x] index.html presente
 - [x] Dados fictícios apenas
 - [x] Badge "VERSÃO DEMONSTRATIVA" visível
 
@@ -41,7 +41,7 @@ dashboard-roi-public/
 ├── .gitignore               ✅
 ├── .env.example             ✅
 ├── PUBLICATION_CHECKLIST.md ✅
-├── dashboard-demo-30dias.html ✅
+├── index.html ✅
 ├── assets/
 │   ├── dashboard-hotmart-roi-top15.png ✅
 │   ├── dashboard-meta-hotmart-main.png ✅
@@ -58,24 +58,24 @@ dashboard-roi-public/
 Total: 17 arquivos
 ```
 
-## Próximos Passos
+## Passos Realizados
 
-1. Inicializar Git: `git init`
-2. Adicionar: `git add .`
-3. Commit: `git commit -m "feat: Dashboard ROI demo v1.0"`
-4. Criar repo: `gh repo create dashboard-roi --public`
-5. Push: `git push -u origin main`
-6. Configurar GitHub Pages (Settings → Pages → /root)
-7. Verificar: `https://adrielportoribeiro.github.io/dashboard-roi/`
+1. [x] Git inicializado
+2. [x] Commit: `feat: Dashboard ROI demo v1.0`
+3. [x] Repo criado: `gh repo create dashboard-roi --public`
+4. [x] Push para `porto-studio/dashboard-roi`
+5. [x] GitHub Pages configurado (Settings → Pages → /root)
+6. [x] Verificado: https://porto-studio.github.io/dashboard-roi/
+7. [x] README revisado (link de clone, nomes de arquivo e seção "rodar localmente" corrigidos)
 
 ## Aprovação
 
-- [ ] Autor aprova publicação
-- [ ] Revisão final feita
-- [ ] GitHub Pages configurado
+- [x] Autor aprova publicação
+- [x] Revisão final feita
+- [x] GitHub Pages configurado
 
 ---
 
-**Versão:** 1.0
+**Versão:** 1.1
 **Data:** 2026-09-11
-**Status:** ✅ PRONTO
+**Status:** ✅ PUBLICADO E REVISADO
