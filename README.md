@@ -61,7 +61,7 @@ Meta Ads                Hotmart
 
 **Acesse a demonstração com dados fictícios:**
 
-🔗 ** https://porto-studio.github.io/dashboard-roi/(https://porto-studio.github.io/dashboard-roi/)**
+🔗 [https://porto-studio.github.io/dashboard-roi/](https://porto-studio.github.io/dashboard-roi/)
 
 > ⚠️ **VERSÃO DEMONSTRATIVA — DADOS FICTÍCIOS**
 > 
